@@ -1,4 +1,4 @@
-package com.blog.bloggery;
+package com.example.bloggery;
 
 import androidx.appcompat.app.AppCompatActivity;
 

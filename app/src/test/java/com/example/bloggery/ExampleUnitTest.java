@@ -1,4 +1,4 @@
-package com.blog.bloggery;
+package com.example.bloggery;
 
 import org.junit.Test;
 
