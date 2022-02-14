@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/my_profile_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="My Profile"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/my_profile_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView
+        android:id="@+id/user_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_marginLeft="30dp"
+        android:text="Name: "
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/email_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_name_text_view"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Email: "
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/my_posts_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/edit_my_profile"
+        android:layout_below="@id/email_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#F5F5F5"
+        android:text="My posts"
+        android:textSize="18sp"
+        app:backgroundTint="#CE068C" />
+
+    <Button
+        android:id="@+id/edit_my_profile"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sign_out"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="#F5F5F5"
+        android:text="Edit my profile"
+        android:textSize="18sp"
+        app:backgroundTint="#CE068C" />
+
+
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="207dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="#F5F5F5"
+        android:text="Sign out"
+        android:textSize="18sp"
+        app:backgroundTint="#FF0000" />
+
+
+</RelativeLayout>
